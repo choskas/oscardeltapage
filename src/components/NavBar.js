@@ -1,27 +1,30 @@
 import React, { Component } from 'react'
 import { Layout, Menu } from 'antd';
 import '../App.css'
+import {Link} from 'react-router-dom'
 const { Header } = Layout;
 
 export default class NavBar extends Component {
     render() {
         return (
             <div>
-                   <Layout>
-    <Header className="header" style={{background: 'black', height: '15vh'}}>
-      <div className="logo" />
+                  
+    <Header className="header" style={{background: 'black', height: '15vh', padding: '0 5px'}}>
+            <Link to='/'>
+     <img style={{height: '15vh', float: 'left', width: '18vw'}} src='/images/Oscar Delta.png' alt='aquideberiaestarellogoalv'></img>
+     </Link>
       <Menu
         theme="dark"
         mode="horizontal"
-        defaultSelectedKeys={['2']}
-        style={{ lineHeight: '64px', float:'right', bacground: 'black', marginTop: '2.5vh', fontSize: '2rem' }}
+        defaultSelectedKeys={['3']}
+        style={{ lineHeight: '64px', float:'right', bacground: 'black', marginTop: '2.5vh', fontSize: '2rem', marginRight: '9vw' }}
       >
-        <Menu.Item key="3" className='MenuNavbar' style={{background: 'black'}}>Home</Menu.Item>
-        <Menu.Item key="4" className='MenuNavbar' style={{background: 'black'}}>Projects</Menu.Item>
-        <Menu.Item key="5" className='MenuNavbar' style={{background: 'black'}}>Contact</Menu.Item>
+        
+        <Menu.Item key="1" className='MenuNavbar' style={{background: 'black'}}>Projects</Menu.Item>
+        <Menu.Item key="2" className='MenuNavbar' style={{background: 'black'}}>Contact</Menu.Item>
       </Menu>
       </Header>
-      </Layout>
+      
             </div>
         )
     }
