@@ -27,4 +27,7 @@
   .MenuNavbar{
     font-size: 16px;
    }
+  .onMobileHomeCards{
+    overflow: auto;
+  }
 }

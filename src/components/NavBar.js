@@ -7,9 +7,9 @@ const { Header } = Layout;
 export default class NavBar extends Component {
     render() {
         return (
-            <div>
+            <div style={{width: 'auto'}}>
                   
-    <Header className="header" style={{background: 'black', height: '15vh', padding: '0 5px'}}>
+    <Header className="header" style={{background: 'black', height: '15vh', padding: '0 5px', width:'auto'}}>
             <Link to='/'>
      <img style={{height: '15vh', float: 'left', width: '18vw'}} src='/images/Oscar Delta.png' alt='aquideberiaestarellogoalv'></img>
      </Link>
