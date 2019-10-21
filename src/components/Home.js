@@ -59,9 +59,30 @@ I'm always learning.</p>
 </div>
  
 
-         <div style={{height: '85vh', width: 'auto', background: 'url("/images/Fondo corto 2.png")', backgroundRepeat: 'no-repeat', backgroundSize: '100vw 85vh' }}>
+         <div style={{paddingTop: '5vh' ,height: '85vh', width: 'auto', background: 'url("/images/Fondo corto 2.png")', backgroundRepeat: 'no-repeat', backgroundSize: '100vw 85vh' }}>
          <h2 style={{fontSize: '38px', fontFamily: '"Archivo Black", sans-serif', color:'white'}}>Projects</h2>
-            
+         <div className='onMobileCardContainerHome' style={{display: 'flex', flexWrap: 'wrap', flexDirection: 'row', justifyContent: 'space-between', maxWidth: '100vw'}}>
+                <Card style={{borderRadius: '5px', width: '20rem',height:'68vh', background: 'black', border: '0px'}}>
+                <img src={'/images/teach.png'} style={{width: '18rem', height: '25vh'}} alt={'teach'}></img>
+                <h2 style={{fontSize: '32px', fontFamily: '"Archivo Black", sans-serif', color:'white'}}>Teach and Learn</h2>
+            <p style={{color: 'white', fontSize: '1.2rem'}}>This project was carried out in a week. It aimed to communicate students with teachers.
+            </p>
+                </Card>
+
+                <Card style={{borderRadius: '5px', width: '20rem',height:'68vh', background: 'black', border: '0px'}}>
+                <img src={'/images/DOM.png'} style={{width: '18rem', height: '25vh'}} alt={'dom'}></img>
+                <h2 style={{fontSize: '32px', fontFamily: '"Archivo Black", sans-serif', color:'white'}}>Phantom Ninja Ultra</h2>
+            <p style={{color: 'white', fontSize: '1.2rem'}}>My first project as a developer is a Videogame just using canvas and Javascript.
+            </p>
+                </Card>
+
+                <Card style={{borderRadius: '5px', width: '20rem',height:'68vh', background: 'black', border: '0px'}}>
+                <img src={'/images/gamingcouple.png'} style={{width: '18rem', height: '25vh'}} alt={'gaming'}></img>
+                <h2 style={{fontSize: '32px', fontFamily: '"Archivo Black", sans-serif', color:'white'}}>The Gaming Couple</h2>
+            <p style={{color: 'white', fontSize: '1.2rem'}}>MERN project based on E-Sports, using a REST-Full API.
+            </p>
+                </Card>
+         </div>
          </div>
         
             </div>
