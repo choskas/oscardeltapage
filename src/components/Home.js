@@ -3,6 +3,7 @@ import NavBar from './NavBar'
 import {Layout, Card} from 'antd'
 import {Link} from 'react-router-dom'
 import '../App.css'
+import FooterR from './Footer'
 
 export default class Home extends Component {
     render() {
@@ -84,8 +85,10 @@ I'm always learning.</p>
                 </Card>
          </div>
          </div>
-        
+        <FooterR/>
             </div>
         )
     }
 }
+
+//modificar onmobile footer
