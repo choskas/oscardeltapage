@@ -9,7 +9,7 @@ export default class FooterR extends Component {
         return (
             <div className='onMobileFooterDiv' style={{width: 'auto'}}>
                   
-                  <Footer style={{background: 'black', color: 'white', display: 'flex', justifyContent: 'space-between', height: '20vh', width: '99vw', padding: '0px', paddingTop: '10px', margin: '0px' }} >
+                  <Footer style={{background: 'black', color: 'white', display: 'flex', justifyContent: 'space-between', height: '20vh', width: 'auto', padding: '0px', paddingTop: '10px', margin: '0px' }} >
             <div style={{display: 'flex', justifyContent: 'space-around',width: '50%'}}>
             <img src={'/images/ironhack-988x1024.png'} style={{height: '80%'}} alt='ironhack'></img>
             <img src={'/images/cert.png'} alt='cert' style={{height: '80%'}}></img>

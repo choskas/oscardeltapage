@@ -20,7 +20,7 @@ export default class NavBar extends Component {
         style={{ lineHeight: '64px', float:'right', bacground: 'black', marginTop: '2.5vh', fontSize: '2rem', marginRight: '9vw' }}
       >
         
-        <Menu.Item key="1" className='MenuNavbar' style={{background: 'black'}}>Projects</Menu.Item>
+       <Menu.Item key="1" className='MenuNavbar' style={{background: 'black'}}> <Link to='/projects'>Projects </Link></Menu.Item> 
         <Menu.Item key="2" className='MenuNavbar' style={{background: 'black'}}>Contact</Menu.Item>
       </Menu>
       </Header>
