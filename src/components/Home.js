@@ -60,7 +60,7 @@ I'm always learning.</p>
 </div>
  
 
-         <div style={{paddingTop: '5vh' ,height: '85vh', width: 'auto', background: 'url("/images/Fondo corto 2.png")', backgroundRepeat: 'no-repeat', backgroundSize: '100vw 85vh' }}>
+         <div style={{paddingTop: '5vh' ,height: 'auto', width: 'auto', background: 'url("/images/Fondo corto 2.png")', backgroundRepeat: 'repeat', backgroundSize: '100vw 85vh' }}>
          <h2 style={{fontSize: '38px', fontFamily: '"Archivo Black", sans-serif', color:'white'}}>Projects</h2>
          <div className='onMobileCardContainerHome' style={{display: 'flex', flexWrap: 'wrap', flexDirection: 'row', justifyContent: 'space-between', maxWidth: '100vw'}}>
                 <Card style={{borderRadius: '5px', width: '20rem',height:'68vh', background: 'black', border: '0px'}}>
@@ -85,7 +85,9 @@ I'm always learning.</p>
                 </Card>
          </div>
          </div>
+
         <FooterR/>
+    
             </div>
         )
     }
