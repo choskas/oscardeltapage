@@ -30,4 +30,19 @@
   .onMobileHomeCards{
     overflow: auto;
   }
+  .onMobileFirstDiv{
+    display: flex;
+    width: 80vw;
+    height: 30vh
+  }
+  .onMobileFooterDiv{
+    display: none;
+  }
+  .onMobileMyImage{
+    display: none
+  }
+  .onMobileButtonFirstDiv{
+    display: none
+  }
+ 
 }
